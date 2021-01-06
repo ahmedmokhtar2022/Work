@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+
+.register-page-background-image{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.form-head {
+    font-family: Lobster;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 0 20px #d1d1d1;
+}
+form.register-form {
+    position: fixed;
+    margin-left: 33vw;
+    margin-right: 33vw;
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+    height:570px;
+    background: white;
+    display: grid;
+    width: 28vw;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px #8d8a8a;
+    z-index: 0;
+}
+
+label.form-label {
+    font-family: fantasy;
+    color: #515151;
+}
+
+input.form-input {
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px 0px white;
+    border-radius: 5px;
+    background: #ededed;
+    height: 30px;
+
+}
+input.submit-btn {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.error {
+    text-align: center;
+    background: #ffe0e0;
+    font-family: 'Passion One';
+    color: #bc7582;
+    border-radius: 9px;
+    border: solid 1px;
+    padding-top: 20px;
+    height: 2vw;
+}
+p.p-error {
+    margin-top: -18px;
+}
+
+a.already_have_account_a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: #6a09b4;
+}
+input.submit-btn {
+    margin-top: 20px;
+    height: 30px;
+    background: #65a9df;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 11px #919191;
+    outline: none;
+    cursor: pointer;
+}
+input.submit-btn:hover {
+    background: white;
+    color: black;
+}
+

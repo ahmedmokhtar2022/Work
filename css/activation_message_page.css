@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+h1.activated_word_h1 {
+    margin-left: 34vw;
+    margin-right: 34vw;
+    width: 440px;
+    font-family: 'Lobster';
+}
+
+h2.activated_word_h2 {
+    margin-left: 33vw;
+    margin-right: 33vw;
+    font-size: 1.5vw;
+    width: 484px;
+    font-family: fangsong;
+    color: #242424;
+    box-shadow: 0px 0px 8px #4eff22;
+    background: #beff59;
+}
+
+p.redirecr-word {
+    font-size: 2vw;
+    font-weight: bold;
+}
+div#counter {
+    font-size: 40px;
+    color: #216aef;
+}
